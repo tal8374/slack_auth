@@ -113,8 +113,8 @@ app.get('/auth', function(req, res){
     return;
   }
   var data = {form: {
-    client_id: process.env.SLACK_CLIENT_ID,
-    client_secret: process.env.SLACK_CLIENT_SECRET,
+    client_id: 757565786307.756298506114,
+    client_secret: '8e273723e18371f9e9988f60ae671438',
     code: req.query.code
   }};
   request.post(apiUrl + '/oauth.access', data, function (error, response, body) {
